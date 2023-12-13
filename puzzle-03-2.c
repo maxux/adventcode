@@ -108,6 +108,7 @@ void groups_init(map_t *map) {
             number->value = atoi(map->map[line] + width);
             number->used = 0;
             number->checked = 0;
+            number->adjacent = 0;
 
             while(map->map[line][width] && strchr(match, map->map[line][width])) {
                 map->groups[line][width] = number;
