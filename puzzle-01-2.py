@@ -8,7 +8,7 @@ with open("puzzle-01.input", "r") as f:
 total = 0
 
 a = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-b = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+b = ["o1e", "t2o", "t3ree", "f4ur", "f5ve", "s6x", "s7ven", "e8ght", "n9ne"]
 
 for line in source.strip().split("\n"):
     clean = line
