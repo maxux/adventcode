@@ -2,7 +2,7 @@ import requests
 import re
 
 source = ""
-with open("puzzle2.input", "r") as f:
+with open("puzzle-02.input", "r") as f:
     source = f.read()
 
 total = 0
